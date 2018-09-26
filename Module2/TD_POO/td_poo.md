@@ -19,8 +19,8 @@ Voici le modèle de départ de notre site de e-commerce :
             get()/set()<br />
         </div>
     </div>
-	
-	
+	<br />
+	<br />
     <div style="border:1px solid black; background:royalblue; color:white;padding:10px;">
         <div style="border-bottom:1px solid black;text-align:center; padding-bottom: 10px;">
             Vendeur
@@ -34,8 +34,8 @@ Voici le modèle de départ de notre site de e-commerce :
             get()/set()<br />
         </div>
     </div>
-	
-	
+	<br />
+	<br />
     <div style="border:1px solid black; background:royalblue; color:white;padding:10px;">
         <div style="border-bottom:1px solid black;text-align:center; padding-bottom: 10px;">
             Client
@@ -74,6 +74,8 @@ Voici le modèle de départ de notre site de e-commerce :
             get()/set()<br />
         </div>
     </div>
+	<br />
+	<br />
     <div style="border:1px solid black; background:royalblue; color:white;padding:10px;">
         <div style="border-bottom:1px solid black;text-align:center; padding-bottom: 10px;">
             Vendeur
@@ -87,6 +89,8 @@ Voici le modèle de départ de notre site de e-commerce :
             get()/set()<br />
         </div>
     </div>
+	<br />
+	<br />
     <div style="border:1px solid black; background:royalblue; color:white;padding:10px;">
         <div style="border-bottom:1px solid black;text-align:center; padding-bottom: 10px;">
             Client
@@ -125,6 +129,8 @@ Un client possède un panier contenant 0 ou plusieurs articles dans la limite de
             get()/set()<br />
         </div>
     </div>
+	<br />
+	<br />
     <div style="border:1px solid black; background:royalblue; color:white;padding:10px;">
         <div style="border-bottom:1px solid black;text-align:center; padding-bottom: 10px;">
             Vendeur
@@ -138,6 +144,8 @@ Un client possède un panier contenant 0 ou plusieurs articles dans la limite de
             get()/set()<br />
         </div>
     </div>
+	<br />
+	<br />
     <div style="border:1px solid black; background:royalblue; color:white;padding:10px;">
         <div style="border-bottom:1px solid black;text-align:center; padding-bottom: 10px;">
             Client
