@@ -50,7 +50,7 @@ Voici le modèle de départ de notre site de e-commerce :
         </div>
     </div>
 </div>
-
+<br />
 1. A partir de ce modèle : créer les classes associées  
 2. Créer un fichier index dans lequel vous testerez ces classes :  
     - Création d’un élément
@@ -105,7 +105,7 @@ Voici le modèle de départ de notre site de e-commerce :
         </div>
     </div>
 </div>
-
+<br />
 Un produit possède un vendeur (et un seul).
 1. Dans la classe Produit, ajouter la variable « vendeur » est les méthodes get/set associées.
 2. Modifier l’affichage d’un produit pour prendre en compte le vendeur
@@ -163,7 +163,7 @@ Un client possède un panier contenant 0 ou plusieurs articles dans la limite de
         </div>
     </div>
 </div>
-
+<br />
 1. Implémenter les méthodes « ajouterAuPanier » et « getPanier »
 2. Mettre en place la restriction de 4 articles maximum
 3. Tester votre code
