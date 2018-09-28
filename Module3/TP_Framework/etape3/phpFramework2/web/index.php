@@ -10,5 +10,5 @@ require __DIR__ . DS . '..' . DS . 'vendor/autoload.php';
 
 $testApp = new TestApplication();
 $request = new Request($testApp);
-echo $request->getUri() . '<br>';
+echo $request->getUrl() . '<br>';
 echo $request->getMethod();

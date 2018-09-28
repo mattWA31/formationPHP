@@ -1,5 +1,5 @@
 [routes.test]
-    url = "/produits-(.+).html"
+    url = "/accueil"
     module = "Test"
     action = "index"
     params = [

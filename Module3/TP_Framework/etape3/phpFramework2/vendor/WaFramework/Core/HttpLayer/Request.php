@@ -11,7 +11,7 @@ class Request extends AppManager
         return $_SERVER['REQUEST_METHOD'];
     }
 
-    public function getUri(){
+    public function getUrl(){
         return $_SERVER['REQUEST_URI'];
     }
 
@@ -40,18 +40,5 @@ class Request extends AppManager
 
     public function checkPost($name){
         return isset($_POST[$name]);
-    }
-
-    public function getCookie($name){
-        $result = null;
-        if(isset($_COOKIE[$name])){
-            $result = $_COOKIE[$name];
-        }
-
-        return $result;
-    }
-
-    public function checkCookie($name){
-        return isset($_COOKIE[$name]);
     }
 }

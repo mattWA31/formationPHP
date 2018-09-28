@@ -59,7 +59,7 @@ abstract class App
         $_GET = array_merge($_GET, $correctRoute->getParams());
 
         // Instanciation du controller
-        $controllerClass = 'App\\' . $this->getName() . '\\Modules\\' . $correctRoute->getModule(). '\\' . $correctRoute->getModule() . 'Controller';
+        $controllerClass = 'App\\' . $this->getName() . '\\Controllers\\' . $correctRoute->getModule() . 'Controller';
         return new $controllerClass($this, $correctRoute->getModule(), $correctRoute->getAction());
     }
 

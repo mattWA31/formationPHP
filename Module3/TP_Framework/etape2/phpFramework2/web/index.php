@@ -7,5 +7,5 @@ define('DS', DIRECTORY_SEPARATOR);
 require __DIR__ . DS . '..' . DS . 'vendor/autoload.php';
 
 $request = new Request();
-echo $request->getUri() . '<br>';
+echo $request->getUrl() . '<br>';
 echo $request->getMethod();
