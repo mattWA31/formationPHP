@@ -1,0 +1,10 @@
+[routes.test]
+    url = "/accueil"
+    module = "Home"
+    action = "index"
+
+
+[routes.test2]
+    url = "/contact"
+    module = "Home"
+    action = "contact"

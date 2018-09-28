@@ -1,0 +1,12 @@
+[routes.test]
+    url = "/contact"
+    module = "Test"
+    action = "contact"
+    params = [
+        "id"
+    ]
+
+[routes.test]
+    url    = "/accueil"
+    module = "Home"
+    action = "index"
