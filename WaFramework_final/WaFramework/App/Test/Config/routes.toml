@@ -1,0 +1,22 @@
+[routes.accueil]
+    url = "/accueil"
+    module = "Home"
+    action = "index"
+    params = [
+        "id","prenom"
+    ]
+
+[routes.contact]
+    url = "/contact"
+    module = "Home"
+    action = "contact"
+
+[routes.listuser]
+    url = "/listuser"
+    module = "User"
+    action = "listUser"
+
+[routes.createuser]
+    url = "/createuser"
+    module = "User"
+    action = "createUser"

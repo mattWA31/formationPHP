@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule ^admin/ index.php?app=Admin [L]
+RewriteRule ^login/ index.php?app=Login [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?app=Test [L]

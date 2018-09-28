@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule ^$ web/ [L] # http://localhost/WaFramework (/)
+RewriteRule (.*) web/$1 [L] # http://localhost/WaFramework/toto -> web/toto
