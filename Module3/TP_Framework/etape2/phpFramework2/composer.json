@@ -1,0 +1,16 @@
+{
+    "name": "boudha/php-framework2",
+    "authors": [
+        {
+            "name": "dolez-ma",
+            "email": "matthieu.dolez@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/",
+            "WaFramework\\": "vendor/WaFramework"
+        }
+    }
+}

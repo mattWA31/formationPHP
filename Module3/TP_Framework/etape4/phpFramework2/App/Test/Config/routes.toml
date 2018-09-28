@@ -1,0 +1,7 @@
+[routes.test]
+    url = "/produits-(.+).html"
+    module = "Test"
+    action = "index"
+    params = [
+        "id"
+    ]
